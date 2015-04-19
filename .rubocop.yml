@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - .bundle/**/*
+    - bin/rake
+    - bin/rspec
+    - Gemfile
+
+Metrics/LineLength:
+  Max: 115
+
+Documentation:
+  Enabled: false
+
+ParameterLists:
+  Max: 5
+  CountKeywordArgs: false
+  Enabled: true
